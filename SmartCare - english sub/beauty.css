@@ -1,0 +1,640 @@
+.background{
+    min-height: 100%;
+    min-width: 600px;
+    /* On indique un redimensionnement proportionnel */
+    width: 100%;
+    height: 50%;
+    /* L'image est positionnée en haut à gauche */
+    position: fixed;
+    top: 0;
+    left: 0;
+     min-width: 600px;
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center center;
+     background-attachment: fixed;
+}
+.my-nav{
+    position: absolute;
+    z-index: 11;
+    width: 100%;
+    }
+    .navbar{
+        padding-top: 0!important;
+        margin-bottom: 70px!important;
+    }
+.navbar1{
+    margin-bottom: 50px!important;
+
+}
+                                                 /*changes: font family, float, left&right*/
+    @font-face{ font-family:AvenirLTStd-Roman;
+        src:url('Avenir-Font/avenir_ff/AvenirLTStd-Roman.otf');}
+    .nav-item{
+        
+        list-style: none;
+        padding-left: 0px;
+        font-size:20px;
+        font-family:AvenirLTStd-Roman ;
+        text-decoration: none;
+        
+        display: inline-block;
+        margin-top: 0;
+        margin-right: 100px;
+        padding-right: 5px;
+        
+        padding-top: 15px;
+        
+      }
+     
+      .nav-link{
+        color:#626264!important ;      }
+      .nav-link:hover{
+        background-color: #3ebe91;
+        color: white!important;
+        font-weight: bold;
+        border-radius: 6px;
+        
+    }
+    @font-face{ font-family:AvenirLTStd-Book;
+        src:url('Avenir-Font/avenir_ff/AvenirLTStd-Book.otf');}
+    #Display-2{
+        position: relative;
+        z-index: 10;
+        margin-top: 70px;
+        margin-bottom: 0;
+        max-width: 954px;
+        left: 19%;
+        margin-right: 0px!important;
+       
+        font-family: AvenirLTStd-Book;
+        
+    }
+    @font-face{ font-family:AvenirLTStd-Book;
+        src:url('Avenir-Font/avenir_ff/AvenirLTStd-Book.otf');}
+    #p2p1{
+        margin-top: 70%;
+        position: relative;
+        right: 17%;
+        text-align:justify;
+        text-justify: inter-word;
+        color: #555555;
+        font-size: 16px;
+        max-width:763!important ;
+        font-family: AvenirLTStd-Book;
+    }
+    #p2p1 p{
+        margin-bottom: 0px;
+        
+        max-width:763!important ;
+    
+        }
+        @font-face{ font-family:AvenirLTStd-Book;
+            src:url('Avenir-Font/avenir_ff/AvenirLTStd-Book.otf');}
+        .p3h1{
+            
+            font-family: AvenirLTStd-Book;
+            color: #5091c3;
+            font-size: 80px;
+            margin-bottom: 20px;
+            padding-bottom: 13px;
+            max-width: 950px;
+        }
+        @font-face{ font-family:AvenirLTStd-Book;
+            src:url('Avenir-Font/avenir_ff/AvenirLTStd-Book.otf');}
+        .p5h1{
+            position: relative;
+            right:1% ;
+            
+            margin-right: 0;
+            font-family: AvenirLTStd-Book;
+            color: #5091c3;
+            font-size: 80px;
+            margin-bottom: 20px;
+            padding-bottom: 13px;
+            max-width: 1020px;
+        }
+        .underline-3{
+            border-bottom: 4px solid currentColor;
+            
+            line-height: 1,7;
+        } 
+        #blogCarousel{
+            position: relative;
+            right: 1%;
+        }
+        .jcarousel img {
+            display: block;
+            max-width: 100%;
+            height: auto !important;
+        }
+        .blog .carousel-indicators {
+            left: 0;
+            top: auto;
+            bottom: -40px;
+        
+        }
+        
+        /* The colour of the indicators */
+        .blog .carousel-indicators li {
+            background: #a3a3a3;
+            border-radius: 50%;
+            width: 8px;
+            height: 8px;
+        }
+        
+        .blog .carousel-indicators .active {
+        background: #707070;
+        }
+        .col-md-12{
+            margin-top: 20px;
+            height: 150px!important;
+        }
+        .col-md-3{
+            height: 50%;
+        }
+        .row {
+            max-width: 100%;
+           max-height:  200px!important;
+        }
+        center{
+            color: rgb(68, 67, 67);
+            text-decoration: none;
+        }
+        .dropdown-toggle{
+            color:#626264!important ;
+            
+        }
+        .dropdown-menu{
+            background-color: white!important;
+        }
+        .dropdown-show{
+            background-color: white!important;
+        }
+        .dropdown-toggle:hover{
+            color: white!important;
+            text-decoration: none;
+        }
+        @font-face{ font-family:AvenirLTStd-Book;
+            src:url('Avenir-Font/avenir_ff/AvenirLTStd-Book.otf');}
+        .ps{
+            font-family: AvenirLTStd-Book;
+            padding-left: 15px;
+            font-size: 14px;
+            float: left;
+            color: #343534;
+            
+        }
+        .ps.active{
+         color: #3ebe91!important;
+        }
+        
+        #ps{
+            text-decoration: none; 
+            font-size: 20px;
+        }
+        .prod{
+            width: 300px;
+            height: 200px;
+            float:left;
+            margin-bottom: 150px;
+            margin-right: 15px;
+        }
+        .proda{
+            margin-left: 0%;
+          height: 200px;  
+          max-width: 950px!important;
+        }
+        @font-face{ font-family:AvenirLTStd-Book;
+            src:url('Avenir-Font/avenir_ff/AvenirLTStd-Book.otf');}
+        .p4h1{
+            margin-right: 19%;
+            font-family: AvenirLTStd-Book;
+            color: #3ebe91;
+            font-size: 50px;
+            margin-bottom: 20px;
+            padding-bottom: 13px;
+        }
+        
+                               /*responsive*/
+        @media only screen and (max-width: 320px) {
+            .p3h1{
+                margin-left: 10%!important;
+                position: relative;
+                right: 15%;
+                font-size: 60px;
+                margin-bottom: 20px;
+                padding-bottom: 13px;
+            }
+            
+            .dropdown-show{
+                background-color: white!important;
+            }
+            #p2p1 p{
+                position: relative;
+                right: 15%;
+                padding-left: 10%;
+                }
+            .carousel-inner{
+               height: 700px!important;
+               margin-left: 40px;
+            }
+            
+            .p5h1{
+                position: relative;
+                right:10% ;
+                font-size: 45px!important;
+                
+                text-align: center;
+            }
+            .prod{
+                margin-right: 10%;
+                margin-bottom: 10%;
+                
+                
+            }
+            .proda{
+              float: right;
+              padding-left: 22px!important;
+              margin-right: 5%!important;
+            }
+           
+          
+
+
+        }
+        @media  (max-width: 347px)and (min-width: 321px) {
+            .p5h1{
+                position: relative;
+                right:10% ;
+                font-size: 40px!important;
+                
+                text-align: center;
+            }
+            .prod{
+                margin-left: 5%;
+                margin-bottom: 10%;
+                
+                
+            }
+        }
+        @media  (max-width: 360px)and (min-width: 348px) {
+            .p3h1{
+                margin-left: 10%!important;
+                position: relative;
+                right: 15%;
+                font-size: 60px;
+                margin-bottom: 20px;
+                padding-bottom: 13px;
+            }
+            #p2p1 p{
+                position: relative;
+                right: 15%;
+                padding-left: 10%;
+                }
+                 
+            .carousel-inner{
+               height: 850px!important;
+               margin-left: 40px;
+            }
+            
+            .p5h1{
+                position: relative;
+                right:15% ;
+                font-size: 50px;
+                margin-left: 7%;
+                text-align: center;
+            }
+            .prod{
+                position: relative;
+                left: 10%;
+                margin-bottom: 10%;
+                
+                
+            }
+            .proda{
+              float: right;
+              padding-left: 22px!important;
+            }
+
+            
+        }
+        @media  (max-width: 374px)and (min-width: 361px) {
+            .p5h1{
+                position: relative;
+                right:15% ;
+                font-size: 50px;
+                margin-left: 7%;
+                text-align: center;
+            }
+            
+            .prod{
+                position: relative;
+                left: 10%;
+                margin-bottom: 10%;
+                
+                
+            }
+            .proda{
+              float: right;
+              padding-left: 22px!important;
+            }
+            
+        }
+        @media screen and (max-width: 360px){
+            .prod{
+              margin-left: 0%!important;
+               
+                
+            } 
+
+        }
+        @media screen and (max-width: 411px){
+            .prod{
+              margin-left: 0%!important;
+               
+                
+            } 
+            
+        }
+        @media  screen and (max-width: 375px) {
+            .p3h1{
+                margin-left: 5%!important;
+                position: relative;
+                right: 2%;
+                font-size: 60px;
+                margin-bottom: 20px;
+                padding-bottom: 13px;
+                margin-right: 10%;
+            }
+           
+            #p2p1 p{
+                position: relative;
+                right: 2%;
+                padding-left: 5%;
+                margin-right: 10%!important;
+                }
+            }
+        @media  (max-width: 411px)and (min-width: 375px) {
+            .p3h1{
+                margin-left: 10%!important;
+                position: relative;
+                right: 15%;
+                font-size: 60px;
+                margin-bottom: 20px;
+                padding-bottom: 13px;
+            }
+            
+            #p2p1 p{
+                position: relative;
+                right: 15%;
+                padding-left: 10%;
+                }
+            .carousel-inner{
+               height: 1000px!important;
+               margin-left: 40px;
+            }
+            
+            .p5h1{
+                position: relative;
+                right:15% ;
+                font-size: 50px;
+                margin-left: 10%;
+                margin-right: 5%;
+                text-align: center;
+            }
+            .prod{
+                position: relative;
+                left: 10%;
+                margin-bottom: 10%;
+                
+                
+            }
+            .proda{
+              float: right;
+              padding-left: 22px!important;
+            }
+            
+        }
+        @media only screen and (max-width: 414px) {
+            .p3h1{
+                margin-left: 5%!important;
+                position: relative;
+                right: 2%;
+                font-size: 60px;
+                margin-bottom: 20px;
+                padding-bottom: 13px;
+                margin-right: 10%;
+            }
+           
+            #p2p1 p{
+                position: relative;
+                right: 2%;
+                padding-left: 5%;
+                margin-right: 10%!important;
+                }
+            .carousel-inner{
+               height: 1000px!important;
+               margin-left: 40px;
+            }
+           
+            .p5h1{
+                position: relative;
+                right:5% ;
+                font-size: 55px;
+                margin-left: 10%;
+                margin-right: 5%;
+                text-align: center;
+            }
+            .prod{
+               margin-left: 10%;
+                
+                margin-bottom: 10%;
+                
+                
+            }
+            .proda{
+                left: 1%;
+                float: right;
+               margin-right: 15%;
+              }
+            
+        }
+        /*here*/
+        @media (max-width: 768px) and (min-width: 415px) {
+            .p3h1{
+                margin-left: 5%!important;
+                position: relative;
+                right: 2%;
+                font-size: 60px;
+                margin-bottom: 20px;
+                padding-bottom: 13px;
+                margin-right: 10%;
+            }
+           
+            #p2p1 p{
+                position: relative;
+                right: 2%;
+                padding-left: 5%;
+                margin-right: 10%!important;
+                }
+            .carousel-inner{
+               height: 1000px!important;
+               margin-left: 40px;
+            }
+            .p5h1{
+                position: relative;
+                right:5% ;
+                font-size: 50px;
+                margin-left: 10%;
+                margin-right: 5%;
+                text-align: center;
+            }
+            .prod{
+                position: relative;
+                left: 18%;
+                margin-bottom: 5%;
+                width: 400px;
+                height: 300px;
+                
+            }
+            .proda{
+              float: left;
+              margin-left: 15%;
+            }
+            
+        }
+        @media (max-width:1024px) and (min-width:769px) {
+            .p3h1{
+                margin-left: 10%!important;
+                position: relative;
+                right: 5%;
+                font-size: 60px;
+                margin-bottom: 20px;
+                padding-bottom: 13px;
+                width: 900px!important;
+            }
+            #p2p1 p{
+                
+                padding-left: 5%;
+                }
+            .carousel-inner{
+               height: 1000px!important;
+               margin-left: 40px;
+            }
+            .p5h1{
+                position: relative;
+                left:5% ;
+                font-size: 50px;
+                width: 800px!important;
+                margin-right: 0%;
+                text-align: left;
+            }
+            .prod{
+                position: relative;
+                left: 5%;
+                width: 300px;
+                height: 200px;
+                float: left;;
+                margin-bottom: 150px;
+                margin-left: 15px;
+            }
+            .proda{
+                margin-left: 45%;
+              height: 200px;  
+              max-width: 800px!important;
+            }
+            
+        }
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        @media only screen and (max-width: 370px) {
+            .p4h1{
+               margin-right: 5%;
+            } 
+        }
+        @media only screen and (max-width: 474px){
+            .p4h1{
+                font-size: 35px!important;
+                text-align: center;
+                margin-bottom: 0;
+            } 
+        }
+        @media only screen and (max-width: 768px) {
+            .p3h1{
+                margin-left: 45px;
+            }
+            .p4h1{
+                font-size: 45px;
+                text-align: center;
+            }
+            .background{width: auto;}
+            
+        }
+        @media  (max-width:850px)  and (min-width:769px){
+            .p4h1{
+                font-size: 45px!important;
+                text-align: center;
+            }
+            
+        }
+        @media (max-width:1024px)  and (min-width:863px){
+            .p4h1{
+               position: relative;
+               right: 5%;
+            }
+            
+            
+        }
+        @media screen and (min-width:1024px){
+            .p4h1{
+                position: relative;
+                left: 30%;
+                font-family: AvenirLTStd-Book;
+                color: #3ebe91;
+                font-size: 50px;
+                margin-bottom: 20px;
+                padding-bottom: 13px;
+            }
+            
+        }
+        @media screen and (min-width: 1025px){
+            .p4h1{
+                margin-right: 25%;
+                font-family: AvenirLTStd-Book;
+                color: #3ebe91;
+                font-size: 50px;
+                margin-bottom: 20px;
+                padding-bottom: 13px;
+            }
+        }
+
+        @media screen and (min-width:1250px){
+           
+            .p4h1{
+                margin-right: 16%;
+                font-family: AvenirLTStd-Book;
+                color: #3ebe91;
+                font-size: 50px;
+                margin-bottom: 20px;
+                padding-bottom: 13px;
+            }
+            
+        }
+
+        
+       
+        
